@@ -1,0 +1,21 @@
+{
+  "name": "prerender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prerender.ts",
+  "scripts": {
+    "start": "DISABLE_LOGGING=true ts-node prerender.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cli-progress": "^3.8.0",
+    "@types/shelljs": "^0.8.8",
+    "axios": "^0.20.0",
+    "cli-progress": "^3.8.2",
+    "prerender": "^5.8.0",
+    "shelljs": "^0.8.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
